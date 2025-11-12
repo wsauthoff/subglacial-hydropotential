@@ -34,7 +34,7 @@ This dataset provides a stationary field of hydropotential computed as (followin
 *(combine terms; add ice overburden)*
 
 **θₕ** = g ⋅ [ρ<sub>water</sub> ⋅ z<sub>bed</sub> + ρ<sub>ice</sub> ⋅ (z<sub>surface</sub> − z<sub>bed</sub>)] − N  
-*(add effective pressure)*
+*(factor g from expression; add effective pressure)*
 
 > Effective pressure is the ice overburden pressure minus the basal water pressure; this variable often poorly assumed to be zero because of lack of observations
 
@@ -42,7 +42,7 @@ This dataset provides a stationary field of hydropotential computed as (followin
 *(ignore effective pressure; distribute ρ<sub>ice</sub>)*
 
 **θₕ** = g ⋅ [ρ<sub>water</sub> ⋅ z<sub>bed</sub> − (ρ<sub>ice</sub> ⋅ z<sub>bed</sub>) + (ρ<sub>ice</sub> ⋅ z<sub>surface</sub>)]  
-*(reorder terms)*
+*(fareorder terms)*
 
 **θₕ** = g ⋅ [(ρ<sub>water</sub> − ρ<sub>ice</sub>) ⋅ z<sub>bed</sub> + (ρ<sub>ice</sub> ⋅ z<sub>surface</sub>)]  
 *(combine z<sub>bed</sub> terms)*
